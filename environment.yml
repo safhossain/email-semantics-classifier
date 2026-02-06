@@ -1,0 +1,11 @@
+name: base
+channels:
+  - pytorch
+  - defaults
+dependencies:
+  - python=3.11
+  - cpuonly
+  - pytorch
+  - pip:
+    - streamlit
+    - nltk
